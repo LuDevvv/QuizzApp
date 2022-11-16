@@ -1,0 +1,198 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e233b;
+  font-family: "Manrope", sans-serif;
+  color: white;
+}
+
+/* HOME */
+
+.home-ct {
+  background-color: #4155bd;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 40rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100vh;
+  padding: 1rem;
+}
+
+.status-quiz {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.action-bar {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.action-question {
+  color: #8b92b9c7;
+  font-size: 30px;
+}
+
+.action-time {
+  position: absolute;
+  color: #ff37529a;
+  font-size: 20px;
+}
+
+.btn-time-continue {
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #ff37529a;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.card-flex {
+  display: flex;
+}
+.card-question .question-title {
+  font-size: 2rem;
+}
+
+.card-question .question-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.answers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.btn {
+  padding: 1rem 1.5rem;
+  border-radius: 100px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+}
+.btn-next {
+  background-color: #288bee;
+}
+
+.btn-check {
+  background-color: #00d665;
+}
+
+.check {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 1rem 1.5rem;
+  border: 5px solid #22486a70;
+  background-color: transparent;
+  color: white;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  /* transition: all ease-in-out 10ms; */
+}
+
+/* .check:hover {
+  border: 5px solid #245076;
+  transition: all ease-in-out 10ms;
+} */
+
+.check .mycheck {
+  border-radius: 100%;
+  border: none;
+}
+
+/* answer styles 
+
+true - #00d665
+false - #FF3751
+
+*/
+
+.set-true {
+  background-color: #00d665;
+}
+
+.set-false {
+  background-color: #ff3751;
+}
+
+.card-finish-ct {
+  width: 25rem;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.card-finish {
+  width: 25rem;
+  font-size: 60px;
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #00d665;
+}
+
+.card-finish b {
+  font-size: 50px;
+}
+
+.btn-finish {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  border-radius: 100px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+  text-align: center;
+}
+
+.again {
+  background-color: #288bee;
+}
+
+.exit {
+  background-color: #ff3751;
+}
+
+.show {
+  background-color: #22486a70;
+}
