@@ -29,5 +29,5 @@ instantánea sobre su desempeño. La aplicación está diseñada para ser fácil
 - Si eliges ver las respuestas correctas, se mostrará la respuesta correcta a cada pregunta.
 
 ### Dependencias ⬇️
-React - una biblioteca de JavaScript para construir interfaces de usuario.
-Framer Motion -  una biblioteca para agregar animaciones y reconocimiento de gestos a componentes de React.
+- React - una biblioteca de JavaScript para construir interfaces de usuario.
+- Framer Motion -  una biblioteca para agregar animaciones y reconocimiento de gestos a componentes de React.
