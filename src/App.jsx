@@ -7,7 +7,6 @@ import questions from "./questions.js";
 import "./index.css";
 
 const App = () => {
-  
   const [currentAnswer, setcurrentAnswer] = useState(0);
   const [points, setpoints] = useState(0);
   const [isFinished, setisFinished] = useState(false);
