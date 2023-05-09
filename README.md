@@ -3,6 +3,8 @@
 Esta es una aplicación de quiz desarrollada utilizando React y la librería de animaciones Framer Motion, esta una aplicación interactiva en línea que permite a los usuarios responder preguntas de opción múltiple y recibir retroalimentación 
 instantánea sobre su desempeño. La aplicación está diseñada para ser fácil de usar y atractiva visualmente, lo que la hace adecuada tanto para el aprendizaje como para la diversión.
 
+![image](https://user-images.githubusercontent.com/107328372/236968095-41f5633a-541e-4660-8a3c-a899690399d7.png)
+
 ### Features ⚙️🧰
  
 - Muestra preguntas de opción múltiple con un límite de tiempo dado.
