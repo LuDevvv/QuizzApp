@@ -7,6 +7,7 @@ import questions from "./questions.js";
 import "./index.css";
 
 const App = () => {
+  
   const [currentAnswer, setcurrentAnswer] = useState(0);
   const [points, setpoints] = useState(0);
   const [isFinished, setisFinished] = useState(false);
@@ -47,7 +48,7 @@ const App = () => {
       <main className="app">
         <div className="card-finish-ct">
           <div className="card-finish">
-            <span>Scorer</span>
+            <span>Score</span>
             <b>{points}</b>
           </div>
 
