@@ -4,6 +4,7 @@ Esta es una aplicación de quiz desarrollada utilizando React y la librería de 
 instantánea sobre su desempeño. La aplicación está diseñada para ser fácil de usar y atractiva visualmente, lo que la hace adecuada tanto para el aprendizaje como para la diversión.
 
 ![image](https://user-images.githubusercontent.com/107328372/236968095-41f5633a-541e-4660-8a3c-a899690399d7.png)
+![image](https://user-images.githubusercontent.com/107328372/236976127-29e82410-f041-4ac0-acc8-d3fdbaa9b26f.png)
 
 ### Features ⚙️🧰
  
